@@ -1,0 +1,49 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+#wordly-popup html, #wordly-popup body, #wordly-popup div, #wordly-popup span, applet, object, iframe,
+#wordly-popup h1, #wordly-popup h2, #wordly-popup h3, #wordly-popup h4, #wordly-popup h5, #wordly-popup h6, #wordly-popup p, #wordly-popup blockquote, pre,
+#wordly-popup a, abbr, acronym, address, big, cite, code,
+del, dfn, em, #wordly-popup img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, #wordly-popup ol, #wordly-popup ul, #wordly-popup li,
+fieldset, form, label, legend,
+#wordly-popup table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: left;
+	line-height: 1;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+#wordly-popup ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

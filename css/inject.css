@@ -1,0 +1,208 @@
+/* Wordly CSS */
+#wordly-popup
+{
+	position: absolute;
+
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 0px;
+
+    color: black;
+    font-family: sans-serif;
+
+    /*background: #D3D3D3;*/
+    background: #F8F8F8;
+    padding: 10px !important;
+
+	box-shadow: 0px 0px 10px 2px #3d1034;
+	z-index:99999;
+}
+
+#wordly-popup #top-content
+{
+
+}
+
+#exit-button:hover
+{
+	color: #a12b89;
+	cursor: pointer;
+}
+
+#wordly-popup #middle-content
+{
+    height: 400px;
+    overflow: scroll;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+#wordly-popup #bottom-content
+{
+	margin-top:10px;
+}
+
+#wordly-popup #word-header
+{
+	background-image: none;
+	background-color: transparent;
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #792067;
+
+}
+
+#wordly-popup #context-sentence
+{
+	margin-top: 15px;
+	margin-bottom:10px;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: 600px;
+}
+
+#wordly-popup #context-sentence:before
+{
+	content: "\"";
+}
+
+#wordly-popup #context-sentence:after
+{
+	content: "\"";
+}
+
+
+#wordly-popup #syllable-main
+{
+	margin-top:7px !important;
+	margin-bottom:7px !important;
+}
+
+#wordly-popup .syllable-element
+{
+	color:darkgray;
+
+}
+#wordly-popup .syllable-element:after
+{
+	content: " | ";
+	color: darkgray;
+	font-weight: light;
+}
+
+#wordly-popup .syllable-main span:last-child:after
+{
+  	content: ' ';
+}
+
+
+#word-info
+{
+	margin:10px;
+	margin-top:20px;
+}
+
+/*
+For definitions section
+*/
+#wordly-popup #definitions
+{
+	padding-left:0px;
+	margin-left: 0px;
+
+	font-size:15px;
+
+	font-weight:400;
+}
+
+#wordly-popup .definition-header
+{
+	font-family: 'Open Sans', sans-serif;
+	color:gray;
+	font-size: 20px;
+}
+
+#wordly-popup .definition
+{
+	margin-bottom: 6px;
+	line-height: 120%;
+	padding-top: 2px;
+	padding-bottom:2px;
+}
+
+#wordly-popup .def-label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+    color: black;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+	font-weight:  'light';
+	letter-spacing: .02em;
+}
+
+#wordly-popup .def-box {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    margin-right:2px;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
+
+
+
+#wordly-popup #definitions .pos-section
+{
+	margin-bottom: 20px;
+	font-family: sans-serif;
+}
+
+#wordly-popup .main-button
+{
+	float:right;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 12px;
+	background: #792067;
+	border:none;
+	border-radius: 3px;
+	
+	margin-top:10px;
+	padding:7px;
+	font-size
+}
+
+#wordly-popup .main-button:hover
+{
+	background: #a12b89;
+}
+
+#definitions label:hover {
+	color: white;
+}
+
+
+/* End definitions section */
+
+
+
+/* Extra elements */
+#wordly-popup .dotted-line
+{
+    border: 0;
+    border-bottom: 1px dashed #gray;
+    background: #999;
+    margin-bottom:5px;
+}
+
+.highlight { background-color: yellow; border-radius: 5px; }
+
+
+

@@ -1,0 +1,21 @@
+<html>
+<head>
+	<link rel="stylesheet" href='style.css'> <!-- Dropdown-Specific Styles -->
+
+
+	<script src="../../js/jquery/jquery.js"></script>
+	<script src="../../js/angular/angular.js"></script>
+	<script src="../../js/underscore.js"></script>
+	<script src="localization.js"></script>
+	<script src="app.js"></script>
+</head>
+<body ng-app="wordlyDropdown" id="wordly-popup">
+	
+	<div ng-controller="DropdownCtrl">
+		<a href="http://local.wordly.com:3000/login" target="_blank"><button class="main-button" id="loc-log-in"></button></a>
+		<a href="http://local.wordly.com:3000/login">Log In</a>
+		<wordViewer ng-click='highlightControl()'></wordViewer>
+	</div>
+
+</body>
+</html>

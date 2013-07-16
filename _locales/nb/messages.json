@@ -1,0 +1,32 @@
+{
+	"def" : {
+		"message" : "definisjon",
+		"description" : "Single definition"
+	},
+	"defs" : {
+		"message" : "definisjoner",
+		"description" : "Plural definitions"
+	},
+	"login" : {
+		"message" : "Logg Inn",
+		"description" : "Log in"
+	},
+	"showWords" : {
+		"message" : "Vis Ordene",
+		"description" : "Show words on page"
+	},
+	"hideWords" : {
+		"message" : "Skjul Ordene",
+		"description" : "Tells user that words will be hidden on page"
+	},
+	"addWord" : {
+		"message" : "Legg til \"$word$\"",
+		"description" : "Prompts user to click a button to add a word",
+		"placeholders": {
+		    "word": {
+		      "content": "$1",
+		      "example": "example word"
+		    }
+		}
+	}
+}
